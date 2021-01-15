@@ -1,12 +1,17 @@
 p {
+  font-weight: bold;
   margin: 25px
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: medium ;
   text-align: center; 
   margin-bottom: 20px;
   
+}
+
+form {
+  border-style: double;
 }
 
 .btn {
