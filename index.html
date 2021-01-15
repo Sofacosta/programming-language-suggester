@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.5.1.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Programming language suggester</title>
-</head>
-<body>
-  <div class="container">
-    <h1>Programming Language Suggester</h1>
-    <p>Hello! Welcome to the programming language suggester. Please choose one answer per question and then submit the form to find what would be the best programming language you should learn first.</p>
-    <p>1.- If you had to pick one, which activity from below would you prefer to do?</p>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Programming language suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Programming Language Suggester</h1>
+      <p>
+        Hello! Welcome to the programming language suggester. Please choose one
+        answer per question and then submit the form to find what would be the
+        best programming language you should learn first.
+      </p>
+      <p>
+        1.- If you had to pick one, which activity from below would you prefer
+        to do?
+      </p>
 
-    <form id="formOne">
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="videogames" />
-          Play and design videogames
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="musicandvisuals" />
-          Make music and visuals
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="activity" value="apps" />
-          Design apps for fun purposes or to help your community solve a problem
-        </label>
-      </div>
-
-      <p>2.- From the options below, who is your favorite character?</p>
+      <form id="formOne">
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="videogames" />
+            Play and design videogames
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="musicandvisuals" />
+            Make music and visuals
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="activity" value="apps" />
+            Design apps for fun purposes or to help your community solve a
+            problem
+          </label>
+        </div>
+        <!-- <p>2.- From the options below, who is your favorite character?</p>
        <div class="radio2">
           <label>
             <input type="radio" name="cartoon" value="Matilda"/>
@@ -110,18 +117,16 @@
           <input type="radio" name="color" value="red"/>
           Red
           </label>
-          </div>          
-             
+          </div>           -->
+           <button type="submit" class="btn">Submit!</button>
+           </form>
 
-
-
-        
-
-      
-
-
-
-    
-
-
-
+           <div id="python">
+            <h2> Your language is Python</h2>
+          </div>
+          <div id="rubyonrails">
+            <h2> Your language is Ruby on rails!</h2>
+          </div>
+    </div>
+  </body>
+</html>

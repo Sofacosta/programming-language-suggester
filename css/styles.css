@@ -5,3 +5,12 @@ p {
 h1 {
   text-align: center
 }
+
+#python {
+  display: none;
+}
+
+#rubyonrails {
+  display: none;
+}
+
