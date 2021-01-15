@@ -14,3 +14,7 @@ h1 {
   display: none;
 }
 
+.btn {
+  margin: 60px;
+  background-color: salmon;
+}
