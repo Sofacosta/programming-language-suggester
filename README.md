@@ -8,6 +8,7 @@
 ## Set up / Installation requirements
 * Clone this repository into your local computer to see code.
 ## Known Bugs
+* The submit button does not give you a globalized answer.
 ## License 
 * [MIT](https://choosealicense.com/licenses/mit) *
 * Copyright ©** _Sofia Acosta**
