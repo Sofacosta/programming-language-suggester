@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  $("#formOne").submit(function () {
+  $("#formOne").submit(function (event) {
     event.preventDefault();
-    const activity = $(".activity").find("input[type=radio]:checked").val();
+    const activity = $("input:radio[name=activity]:checked").val();
     if (activity === "videogames") {
       $("#python").show();
     } else {
