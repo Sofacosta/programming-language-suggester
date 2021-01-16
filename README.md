@@ -5,10 +5,12 @@
 * HTML
 * CSS
 * Javascript / Jquery
+* Github
 ## Set up / Installation requirements
-* Clone this repository into your local computer to see code.
+* Clone this repository into your local computer.
+* Change code to reflect your personal needs.
 ## Known Bugs
-* The submit button does not give you a globalized answer.
+* The submit button does not give you a globalized answer of all questions.
 ## License 
 * [MIT](https://choosealicense.com/licenses/mit) *
 * Copyright ©** _Sofia Acosta**
