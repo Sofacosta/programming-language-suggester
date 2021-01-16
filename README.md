@@ -12,6 +12,6 @@
 ## Known Bugs
 * The submit button does not give you a globalized answer of all questions.
 ## License 
-* [MIT](https://choosealicense.com/licenses/mit) *
+* [MIT](https://choosealicense.com/licenses/mit) 
 * Copyright ©** _Sofia Acosta**
 
