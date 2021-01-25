@@ -48,17 +48,17 @@ form {
 #python {
   display: none;
   text-align: center;
-  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 #rubyonrails {
   display: none;
   text-align: center;
-  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 #csharp {
   display: none;
   text-align: center;
-  margin-bottom: 5px;
+  margin-top: 20px;
 }
