@@ -1,6 +1,10 @@
-$(document).ready(function () {
-  $("#formOne").submit(function (event) {
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
     event.preventDefault();
+    
+    $("#cSharp").hide();
+    $("#python").hide();
+    $("#rubyOnRails").hide();
 
     const activity = $("input:radio[name=activity]:checked").val();
     const interest = $("input:radio[name=interest]:checked").val();
@@ -8,44 +12,59 @@ $(document).ready(function () {
     const character = $("input:radio[name=character]:checked").val();
     const drawback = $("input:radio[name=drawback]:checked").val();
 
+    let cSharp = 0;
+    let python = 0;
+    let rubyOnRails = 0;
+    
     if (activity === "videogames") {
-      $("#csharp").show();
+      cSharp++;
     } else if (activity === "musicandvisuals") {
-      $("#python").show();
+      python++;
     } else {
-      $("#rubyonrails").show();
+      rubyOnRails++;
     }
 
-    if (interest === "AI") {
-      $("#csharp").show();
+    if (interest === "ai") {
+      cSharp++;
     } else if (interest === "web-development") {
-      $("#python").show();
+      python++;
     } else {
-      $("#rubyonrails").show();
+      rubyOnRails++;
     }
 
     if (features === "easy-learn") {
-      $("#csharp").show();
+      cSharp++;
     } else if (features === "general-purpose") {
-      $("#python").show();
+      python++;
     } else {
-      $("#rubyonrails").show();
+      rubyOnRails++;
     }
 
-    if (character === "Lisa-Simpson") {
-      $("#csharp").show();
+    if (character === "lisa-simpson") {
+      cSharp++;
     } else if (character === "Mafalda") {
-      $("#python").show();
+      python++;
     } else {
-      $("#rubyonrails").show();
+      rubyOnRails++;
     }
 
     if (drawback === "few-platform") {
-      $("#csharp").show();
+      cSharp++;
     } else if (drawback === "debugging-task") {
+      python++;
+    } else {
+      rubyOnRails++;
+    }
+    
+    const result = Math.max(cSharp, python, rubyOnRails);
+    
+    if (result === cSharp) {
+      $("#cSharp").show();
+    } else if (result === python) {
       $("#python").show();
     } else {
-      $("#rubyonrails").show();
+      $("#rubyOnRails").show();
     }
+
   });
 });

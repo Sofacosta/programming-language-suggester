@@ -22,9 +22,10 @@ OR
 * Go to the top level of the repository: $ cd programming-language-suggester
 * Open index.html into your browser: $ open index.html
 ## Known Bugs
-* The submit button does not give you a globalized answer of all questions.
+* The form does not represent an accurete result of the chosen options. 
 ## Notes
-
+* I googled: How can we compare three integers to find which one is bigger or smaller and came up with [math.max](https://stackoverflow.com/questions/23547203/how-can-we-compare-three-integers-to-find-which-one-is-bigger-smaller). By definition: [MDN web docts](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max)
+* The [required](https://www.w3schools.com/tags/att_required.asp) specifies that the element must be filled out before submitting the form.  
 ## License
 * [MIT](https://choosealicense.com/licenses/mit)
 * Copyright 2021 Sofia Acosta
